@@ -1,5 +1,53 @@
+/* Common CSS */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.container{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.my-btn{
+    padding: 12px 16px;
+    background-color: #30B868;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.my-btn:hover{
+    border: 2px solid #30B868;
+    background-color: #ffffff;
+    color: #30B868;
+    transition: 0.5s;
+}
+
+/* Navbar CSS */
+header #navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px auto;
+}
+header #navbar .nav{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+header #navbar .nav li a{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+header #navbar .nav li a:hover{
+    border: 2px solid #30B868;
+    padding: 12px 16px;
+    transition: 0.5s;
+    color: #30B868;
+    font-weight: 600;
 }
