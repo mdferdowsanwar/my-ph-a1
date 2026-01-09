@@ -26,7 +26,7 @@
     transition: 0.5s;
 }
 
-/* Navbar CSS */
+/* Navbar Section CSS */
 header #navbar{
     display: flex;
     justify-content: space-between;
@@ -53,7 +53,7 @@ header #navbar .nav li a:hover{
     font-weight: 600;
 }
 
-/* Banner CSS */
+/* Banner Section CSS */
 #banner{
     background: linear-gradient(180deg, rgba(0,0,0,0.1)), url("./assets/hero-bg.png");
     padding: 100px 0;
@@ -107,3 +107,46 @@ header #navbar .nav li a:hover{
     border: 2px solid #ffffff;
 }
 #banner .banner-parent .banner-btn .banner-2nd-btn:hover{border: 2px solid #30B868;}
+/* Notes Section CSS */
+#notes{margin-top: 50px;}
+#notes .notes-title{text-align: center;}
+#notes .notes-title h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+#notes .notes-title p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(98, 115, 130, 1);
+    margin: 15px auto;
+}
+#notes .notes-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 40px;
+}
+#notes .notes-cards .notes-single-card{
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.06);
+}
+#notes .notes-cards .notes-single-card img{
+    background: rgba(249, 85, 85, 1);
+    padding: 10px;
+    border-radius: 50%;
+}
+#notes .notes-cards .notes-single-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px auto;
+}
+#notes .notes-cards .notes-single-card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 10px;
+    color: rgba(98, 115, 130, 1);
+}
+/* Notes Section CSS */
