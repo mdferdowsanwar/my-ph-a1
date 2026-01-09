@@ -108,45 +108,82 @@ header #navbar .nav li a:hover{
 }
 #banner .banner-parent .banner-btn .banner-2nd-btn:hover{border: 2px solid #30B868;}
 /* Notes Section CSS */
-#notes{margin-top: 50px;}
-#notes .notes-title{text-align: center;}
-#notes .notes-title h2{
+#notes{margin-top: 60px;}
+#notes .container .notes-title{text-align: center;}
+#notes .container .notes-title h2{
     font-size: 48px;
     font-weight: 700;
 }
-#notes .notes-title p{
+#notes .container .notes-title p{
     font-size: 16px;
     font-weight: 400;
     color: rgba(98, 115, 130, 1);
     margin: 15px auto;
 }
-#notes .notes-cards{
+#notes .container .notes-cards{
     display: flex;
     justify-content: space-between;
     gap: 10px;
     margin-top: 40px;
 }
-#notes .notes-cards .notes-single-card{
+#notes .container .notes-cards .notes-single-card{
     text-align: center;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 2px 0px 10px 0px rgba(0, 0, 0, 0.06);
 }
-#notes .notes-cards .notes-single-card img{
+#notes .container .notes-cards .notes-single-card img{
     background: rgba(249, 85, 85, 1);
     padding: 10px;
     border-radius: 50%;
 }
-#notes .notes-cards .notes-single-card h3{
+#notes .container .notes-cards .notes-single-card h3{
     font-size: 24px;
     font-weight: 600;
     margin: 10px auto;
 }
-#notes .notes-cards .notes-single-card p{
+#notes .container .notes-cards .notes-single-card p{
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     margin-top: 10px;
     color: rgba(98, 115, 130, 1);
 }
-/* Notes Section CSS */
+/* Second Brain Section CSS */
+#secondBrain{margin-top: 60px;}
+#secondBrain .container .second-brain-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+#secondBrain .container .second-brain-parent .second-brain-section small{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    display: inline-block;
+    margin: 10px auto;
+}
+#secondBrain .container .second-brain-parent .second-brain-section h2{
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 10px auto;
+}
+#secondBrain .container .second-brain-parent .second-brain-section p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(98, 115, 130, 1);
+    margin: 20px auto;
+}
+#secondBrain .container .second-brain-parent .second-brain-section ul{
+    list-style-type: none;
+}
+#secondBrain .container .second-brain-parent .second-brain-section ul li{
+    display: flex;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 25, 49, 1);
+    margin: 10px auto;
+}
