@@ -187,3 +187,42 @@ header #navbar .nav li a:hover{
     color: rgba(0, 25, 49, 1);
     margin: 10px auto;
 }
+/* Early Access Section CSS */
+#earlyAccess{margin-top: 60px;}
+#earlyAccess .container .early-access-parent{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;
+    background: rgba(247, 246, 242, 1);
+    border-radius: 10px;
+    padding: 80px 40px;
+}
+#earlyAccess .container .early-access-parent h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(0, 25, 49, 1);
+}
+#earlyAccess .container .early-access-parent p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(98, 115, 130, 1);
+}
+#earlyAccess .container .early-access-parent .my-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#earlyAccess .container .early-access-parent ul{
+    display: flex;
+    align-items: center;
+}
+#earlyAccess .container .early-access-parent ul li{
+    margin-right: 25px;
+    color: rgba(98, 115, 130, 1);
+}
+#earlyAccess .container .early-access-parent ul li:nth-child(1){
+    list-style-type: none;
+}
+/* Footer Section CSS */
